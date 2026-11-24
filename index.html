@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رسالة إلى مراتي مروة ❤️</title>
+  <!-- عشان معاينة اللينك على واتساب تظهر بالجملة دي -->
+  <meta property="og:title" content="رسالة إلى مراتي مروة ❤️" />
+  <meta property="og:description" content="كل ثانية معاكي هي أحلى وقت في حياتي ✨" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- حاوية القلوب والورد الطايرة في الخلفية -->
+  <div id="floating-container" aria-hidden="true"></div>
+
+  <main class="page-wrapper">
+    <section class="glass-card">
+      <!-- الشارة العلوية -->
+      <div class="badge">✨ حكايتنا ✨</div>
+
+      <!-- العنوان الرئيسي والفرعي -->
+      <h1 class="main-title">رسالة إلى مراتي <span class="glow-name">مروة</span> ❤️</h1>
+      <p class="subtitle">كل ثانية معاكي هي أحلى وقت في حياتي</p>
+
+      <!-- عداد الوقت المباشر -->
+      <div class="counter-box">
+        <p class="counter-title">مع بعض من <span dir="ltr">11/8/2025</span> 💞</p>
+        <div class="counter-grid">
+          <div class="time-unit">
+            <span class="time-value" id="days">0</span>
+            <span class="time-label">أيام</span>
+          </div>
+          <div class="time-unit">
+            <span class="time-value" id="hours">00</span>
+            <span class="time-label">ساعات</span>
+          </div>
+          <div class="time-unit">
+            <span class="time-value" id="minutes">00</span>
+            <span class="time-label">دقائق</span>
+          </div>
+          <div class="time-unit seconds-unit">
+            <span class="time-value" id="seconds">00</span>
+            <span class="time-label">ثواني</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- صندوق الرسائل -->
+      <div class="message-box" id="message-box">
+        <p id="love-message" class="love-message">
+          دوسي على الزرار اللي تحت عشان تشوفي رسالة ليكي 👇
+        </p>
+      </div>
+
+      <!-- الأزرار الرئيسية -->
+      <div class="actions">
+        <button id="message-btn" class="btn btn-primary" type="button">
+          رسالة حلوة 💌
+        </button>
+        <button id="secret-btn" class="btn btn-secondary" type="button">
+          افتحي الظرف السري 🔒
+        </button>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- قسم كروت الصور التفاعلية (4 صور) -->
+      <section class="section-block">
+        <h2 class="section-heading">ذكرياتنا وكلام من قلبي 📸❤️</h2>
+        <div class="photo-cards-grid">
+          <!-- كارت 1 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="افتحي الصورة الأولى">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="card-icon">💌🌹</span>
+                <p class="front-text">دوسي عليا عشان تعرفي موسى بيحبك قد إيه</p>
+                <span class="tap-hint">اضغطي هنا ✨</span>
+              </div>
+              <div class="flip-card-back">
+                <div class="photo-frame">
+                  <img src="photo1.jpg" alt="ذكرياتنا 1" />
+                  <div class="photo-fallback">❤️ حط الصورة باسم photo1 جنب الملف</div>
+                </div>
+                <p class="back-message">بحبك يا مامي ❤️</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- كارت 2 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="افتحي الصورة الثانية">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="card-icon">💖🌹</span>
+                <p class="front-text">دوسي عليا عشان تعرفي موسى بيحبك قد إيه</p>
+                <span class="tap-hint">اضغطي هنا ✨</span>
+              </div>
+              <div class="flip-card-back">
+                <div class="photo-frame">
+                  <img src="photo2.jpg" alt="ذكرياتنا 2" />
+                  <div class="photo-fallback">💖 حط الصورة باسم photo2 جنب الملف</div>
+                </div>
+                <p class="back-message">عمري ما اسيبك يوم واحد حتى 💞</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- كارت 3 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="افتحي الصورة الثالثة">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="card-icon">💍🌹</span>
+                <p class="front-text">دوسي عليا عشان تعرفي موسى بيحبك قد إيه</p>
+                <span class="tap-hint">اضغطي هنا ✨</span>
+              </div>
+              <div class="flip-card-back">
+                <div class="photo-frame">
+                  <img src="photo3.png" alt="ذكرياتنا 3" />
+                  <div class="photo-fallback">💍 حط الصورة باسم photo3 جنب الملف</div>
+                </div>
+                <p class="back-message">مش هسيبك لحد ما نتجوز 💍❤️</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- كارت 4 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="افتحي الصورة الرابعة">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="card-icon">🤫🌹</span>
+                <p class="front-text">دوسي عليا عشان تعرفي موسى بيحبك قد إيه</p>
+                <span class="tap-hint">اضغطي هنا ✨</span>
+              </div>
+              <div class="flip-card-back">
+                <div class="photo-frame">
+                  <img src="photo4.png" alt="ذكرياتنا 4" />
+                  <div class="photo-fallback">🌹 حط الصورة باسم photo4 جنب الملف</div>
+                </div>
+                <p class="back-message">اوعي تقولي لحد على أي حاجة تحصل ما بينا 🤫❤️</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- قسم أهم التواريخ -->
+      <section class="section-block dates-section">
+        <h2 class="section-heading">أهم تواريخ في حياتنا 🗓️🌹</h2>
+
+        <!-- التاريخ الأول -->
+        <div class="date-item">
+          <div class="date-header">
+            <span class="date-badge" dir="ltr">11/8</span>
+            <span class="date-label">أول يوم اتكلمنا فيه ✨</span>
+          </div>
+          <div class="romantic-textbox" data-edge-fx="true">
+            <div class="edge-particles" aria-hidden="true"></div>
+            <p class="textbox-content">
+              اليوم ده أحسن يوم في حياتي عشان بدأنا نتكلم مع بعض يا مامي ❤️🌹
+            </p>
+          </div>
+        </div>
+
+        <!-- التاريخ الثاني -->
+        <div class="date-item">
+          <div class="date-header">
+            <span class="date-badge" dir="ltr">1/29</span>
+            <span class="date-label">أحلى يوم في الدنيا 🎂💖</span>
+          </div>
+          <div class="romantic-textbox" data-edge-fx="true">
+            <div class="edge-particles" aria-hidden="true"></div>
+            <p class="textbox-content">
+              النهاردة جه أحسن حد في الدنيا وأكتر حد حبيته في حياتي ❤️🌹
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- نافذة الظرف السري (Modal) -->
+  <div id="secret-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="close-modal" class="close-btn" type="button" aria-label="إغلاق">&times;</button>
+      <h2 id="modal-title" class="modal-title">رسالة من قلبي ليكي ❤️</h2>
+      <p class="modal-text">
+        يا مروة، من أول لحظة دخلتي فيها حياتي وكل حاجة بقت ليها طعم ومعنى تاني.
+        وجودك جنبي بيخليني احبك اوي ، وضحكتك بحبها اويييي مهما كنت مبضون . أنا
+        بحبك اوي و بعشق كل ثانية بنعيشها سوا، ودايماً هفضل جنبك وسندك في كل
+        خطوة. بحبك أكتر من أي كلام يقدر يوصف، ويا رب نفضل مع بعض العمر كله.
+      </p>
+      <p class="modal-signature">— موسى</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
